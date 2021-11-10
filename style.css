@@ -1,0 +1,43 @@
+body,
+ul,
+li,
+p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: "Roboto Mono", monospace;
+  background-color: #b3e6d9;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.header {
+  background: #4f5572;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.Menu {
+  background: #4f5572;
+  display: flex;
+}
+.Menu li {
+  margin-left: 10px;
+}
+.Menu li a {
+  background: #4f5572;
+  display: block;
+  padding: 10px;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+p {
+  text-align: justify;
+  padding: 15px;
+}
